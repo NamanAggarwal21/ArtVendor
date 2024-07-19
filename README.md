@@ -8,17 +8,17 @@ ArtVendor is a one-stop solution for purchasing your favorite crafts. The platfo
 
 _1.Home Page:_
 
-Product Selection: Users can browse and select their favorite crafts.
+- Product Selection: Users can browse and select their favorite crafts.
 
-Quantity Selection: Users can specify the quantity for each product.
+- Quantity Selection: Users can specify the quantity for each product.
 
 _2.Cart Page:_
 
-Review Items: Users can review the items they have added to their cart.
+- Review Items: Users can review the items they have added to their cart.
 
 _3.Payment Checkout Page:_
 
-Payment Processing: Users can enter payment details and complete the purchase.
+- Payment Processing: Users can enter payment details and complete the purchase.
 
 _4.Orders Page:_
 
@@ -26,7 +26,7 @@ Order Tracking: Users can keep track of their past orders..
 
 _5. Admin Panel:_
 
-For admin to add/remove/update status. 
+- For admin to add/remove/update status. 
 
 # Install Dependencies
 
@@ -35,4 +35,9 @@ For admin to add/remove/update status.
 > cd admin and npm i
 >
 > cd backend and npm i
+>
+> in backend add .env file and add JWT_SECRET , MONGODB_URL , PORT and STRIPE_SECRET_KEY
+
+# Images:
+
 
