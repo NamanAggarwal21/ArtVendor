@@ -39,5 +39,8 @@ _5. Admin Panel:_
 > in backend add .env file and add JWT_SECRET , MONGODB_URL , PORT and STRIPE_SECRET_KEY
 
 # Images:
+![Screenshot 2024-07-19 183625](https://github.com/user-attachments/assets/2958e39b-ddd7-49cc-a1ec-697fb0a00fdd)
+![Screenshot 2024-07-19 183953](https://github.com/user-attachments/assets/4533d378-0b03-48dc-a4eb-4542884ee870)
 
 
+![Screenshot 2024-07-19 183725](https://github.com/user-attachments/assets/058924bd-eb77-4219-b1e7-a349b14f6934)
