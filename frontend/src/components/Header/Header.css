@@ -1,0 +1,60 @@
+.header{
+    height :34vw;
+    margin: 30px auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/background-home.jpeg') ;
+    border-radius: 5px;
+    opacity: 95%;
+    background-size:cover;
+    position: relative;
+}
+.header-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:1.5vw;
+    bottom: 10%;
+    left: 6vw;
+    max-width: 50%;
+    animation: fadeIn 2s ;
+}
+.header-content h2{
+    font-weight: 500;
+    color: white;
+    font-size: max(4vw,22px);
+}
+.header-content p{
+    font-size: 1.2 vw;
+    color: white;
+}
+.header-content button{
+    border: none;
+    color:#747474;
+    font-weight: 500;
+    padding: 0.7vw 2vw;
+    background-color: white;
+    font-size: max(1vw ,15px);
+    border-radius: 50px;
+    /* cursor: pointer; */
+}
+/* .header-content button:hover{
+    transform: scale(1.04) ;
+} */
+@media (max-width:1050px){
+
+    .header-content{
+        max-width: 45%;
+    }
+}
+@media (max-width:750px){
+    .header-content{
+        max-width: 65%;
+    }
+    .header-content p{
+        display: none;
+     }
+    .header-content button{
+        padding: 2vw 4vw;
+    }
+}
+
