@@ -2,6 +2,10 @@
 
 A MERN stack application designed to buy art they need.
 
+- frontend live link: https://artvendor.onrender.com/
+
+- admin portal live link:- https://artvendor-admin.onrender.com/
+
 # Description
 
 ArtVendor is a one-stop solution for purchasing your favorite crafts. The platform includes the following pages:
