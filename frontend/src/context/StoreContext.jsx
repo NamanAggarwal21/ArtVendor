@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) =>{
 
     const [cartItem , setCartItem] = useState({});
-    const url = "http://localhost:4000";
+    const url = "https://artvendor-backend.onrender.com";
     const [token,setToken] = useState("");
     const [art_list,setArtList] = useState([]);
 
