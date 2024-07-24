@@ -30,7 +30,7 @@ Order Tracking: Users can keep track of their past orders..
 
 _5. Admin Panel:_
 
-- For admin to add/remove/update status. 
+- For admin to add/remove/update status
 
 # Install Dependencies
 
