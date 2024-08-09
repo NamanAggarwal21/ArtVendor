@@ -27,7 +27,7 @@
 
 .explore-menu-list-item img{
     width: 7.5vw;
-    height: 7.5vw;
+    height: 8vw;
     min-width: 80px;
     cursor: pointer;
     border-radius: 50%;
@@ -54,5 +54,15 @@
     .explore-menu-text{
         max-width: 100%;
         font-size: 14px;
+    }
+    .explore-menu-list-item img{
+        width: 5vw;
+        height: 10vw;
+    }
+}
+@media (max-width:600px){
+    .explore-menu-list-item img{
+        width: 5vw;
+        height: 17vw;
     }
 }
