@@ -43,7 +43,7 @@
 @media (max-width:1050px){
 
     .header-content{
-        max-width: 45%;
+        max-width: 50%;
     }
 }
 @media (max-width:750px){
@@ -55,6 +55,22 @@
      }
     .header-content button{
         padding: 2vw 4vw;
+    }
+}
+@media (max-width:500px){
+    .header-content{
+        max-width: 60%;
+    }
+    .header-content h2{
+        font-size:5vw;
+    }
+    .header-content p{
+        display: none;
+     }
+    .header-content button{
+        padding: 1vw 2vw;
+        margin-top: 3vw;
+        font-size: 4vw;
     }
 }
 
