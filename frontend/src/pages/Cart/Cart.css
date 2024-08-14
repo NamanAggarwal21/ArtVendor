@@ -83,6 +83,21 @@
     cursor: pointer;
 
 }
+.promo-text{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: tomato;
+    font-size: 15px;
+    font-weight: 700;
+}
+.promo-success{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: rgb(30, 178, 30);
+    font-size: 15px;
+    font-weight: 700;
+}
+
 @media (max-width:750px){
     .cart-bottom{
         flex-direction: column-reverse;
